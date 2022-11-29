@@ -1,0 +1,210 @@
+
+.galleryGrid{
+    
+    min-width: 100%;
+    .row{
+        .sectionText{
+        display: flex;
+        flex-direction: column;
+        min-height: 90vh;
+        h1{
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            margin-top: 30%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 5%;
+            color:$veryDarkDesaturedBlue ;
+       
+        }
+        p{
+            font-family: 'Barlow', sans-serif;
+            font-weight: 600;
+            color: $darkGrayishBlue;
+            text-align: justify;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        button{
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            margin-left: 15%;
+            max-width: 10vw;
+            padding: 0;
+            border-radius: 8px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background-color: $white;
+            &.yellow{
+                border-bottom: 9px outset rgba(237, 253, 18, 0.952);
+                &:hover{
+                    border-color: $yellow;
+                }
+            }
+            &.red{
+                border-bottom: 9px outset hsla(7, 99%, 70%, 0.644);
+                &:hover{
+                    border-color: $softRed;
+
+                }
+            }
+    
+        }
+       
+    }
+    .egg{
+       
+
+        background-image: url('../sass/images/desktop/image-transform.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cup{
+    
+
+        background-image: url('../sass/images/desktop/image-stand-out.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .orange{
+        min-height: 70vh;
+        background-image: url('../sass/images/desktop/image-photography.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        h4{
+            margin-top: 50%;
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            color:$veryDarkDesaturedBlue;
+
+        }
+        p{
+            font-family: 'Barlow', sans-serif;
+            font-weight: 600;
+            margin-left: 20%;
+            margin-right: 20%;
+            color: $darkGrayishBlue;
+        }
+    }
+    .cherry{
+        min-height: 60vh;
+        background-image: url('../sass/images/desktop/image-graphic-design.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        h4{
+            margin-top: 50%;
+            font-family: 'Fraunces', serif;
+            font-weight: 900;
+            color:$veryDarkDesaturedBlue ;
+
+        }
+        p{
+            font-family: 'Barlow', sans-serif;
+            font-weight: 600;
+            margin-left: 20%;
+            margin-right: 20%;
+            color: $darkGrayishBlue;
+            
+        }
+    }
+}
+    
+}
+.cardDisplay{
+    .cardTitle{
+        h4{
+            color:$veryDarkGrayishBlue;
+            font-family: 'Fraunces',serif;
+            font-weight: 900;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            font-size: 15px;
+           
+        }
+    }
+    .gridCard{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5%;
+    
+        .cardContent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .imgEmi{
+                img{
+                    max-width: 5vw;
+                    border-radius: 50%;
+                }     
+            }
+            .imgTho{
+                img{ 
+                    max-width: 5vw;
+                    border-radius: 50%;
+                }
+            }
+            .imgJen{
+                img{ 
+                    max-width: 5vw;
+                    border-radius: 50%;
+                }
+            }
+            p{  
+                margin-top: 10vh;
+                margin-left: 15%;
+                margin-right: 15%;
+                color: $veryDarkGrayishBlue;
+                font-family: 'Barlow', sans-serif;
+            }
+            h5{
+                
+                font-family: 'Fraunces',serif;
+                font-weight: 900;
+                margin-top: 10vh;
+            }
+            span{
+                font-family: 'Barlow', sans-serif;
+                color: $grayishBlue;
+                margin-bottom:10vh;
+            }
+        }
+    }
+}
+.contentImg{
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0;
+   
+       .cone{
+        background-image: url('../sass/images/desktop/image-gallery-cone.jpg');
+        min-height: 70vh;
+        min-width:40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+         } 
+       .milk{
+        background-image: url('../sass/images/desktop/image-gallery-milkbottles.jpg');
+        min-height: 40vh;
+        min-width:40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+       .nworange{
+        background-image: url("../sass/images/desktop/image-gallery-orange.jpg");
+        min-height: 40vh;
+        min-width:40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+       .sugar{
+        background-image: url("../sass/images/desktop/image-gallery-sugarcubes.jpg");
+        min-height: 40vh;
+        min-width:40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+       }    
+}

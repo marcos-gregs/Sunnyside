@@ -1,0 +1,17 @@
+main{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    header{
+        flex: 1 0 80vh;
+    }
+    section{
+        flex: 1 0 225vh;
+       
+    }
+    footer{
+        flex: 1 0 50vh;
+        background-color: $darkModerateCyan;
+    }
+}
