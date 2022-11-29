@@ -1,0 +1,29 @@
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .footerLogo{
+        margin-top: 5%;
+        img{
+            width: 15vw;
+            height: 7vh;
+        }
+    }
+    .footerSection,.footerIcon{
+        display: flex;
+        color: #2C7566;
+        list-style: none;
+        gap: 2vw;
+        margin-right: 2%;
+        li{
+          text-align: center;
+          a{
+            text-decoration: none;
+           color: #2C7566;
+           font-size: 20px;
+          }
+
+        }
+    }
+
+}
